@@ -1,0 +1,17 @@
+{
+  "name": "unshortify",
+  "version": "0.1.0",
+  "description": "NodeJs module that resolve shorten urls",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sokk <boss@sok.sx> (https://sok.sx)",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "fetch-cookie": "^0.8.0",
+    "node-fetch": "^2.6.0",
+    "random-useragent": "^0.3.1"
+  }
+}
