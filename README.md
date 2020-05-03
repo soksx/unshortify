@@ -1,8 +1,7 @@
-# unshortify
-NodeJs module that resolve shorten urls
-=========
+# Unshortify
 
-A small library that adds commas to numbers
+
+NodeJs module that resolve shorten urls
 
 ## Installation
 
