@@ -18,7 +18,6 @@ const unshort = (uri) => {
             });
         }
         catch {}
-        console.log((request && request.status) || 'pato');
         if (request && (request.status == 301 || request.status == 302 || request.status == 200))
             resolve(request.url);
         else 

@@ -1,17 +1,17 @@
 # Unshortify
 
 
-NodeJs module that resolve shorten urls
+NodeJs promisify module that resolve shorten urls
 
 ## Installation
 
-  `npm install @sokk/unshortify`
+  `npm i unshortify`
 
 ## Usage
 
-    const unshort = require('@sokk/unshortify');
+    const unshort = require('unshortify');
 
-    const resolvedUrl = unshort('https://bit.ly/2VVTXki');
+    const resolvedUrl = await unshort('https://bit.ly/2VVTXki');
   
   
   Output should be `https://sok.sx/`
